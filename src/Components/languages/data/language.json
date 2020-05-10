@@ -22,7 +22,7 @@
     "comment":{
       "name":["Name", "Naam","Nom"],
       "back":["Back", "Terug","Retour"],
-      "message":["Comment", "Commentaar", "Ommentaire"],
+      "message":["Comments", "Commentaar", "Ommentaire"],
       "post":["Post", "Post", "Publier"],
       "header":["Leave your comment","Laat jouw reactie achter","laisse ton commentaire"],
       "errorName":["Name is required", "Naam is vereist", "Le nom est requis"],

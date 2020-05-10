@@ -55,10 +55,8 @@
     display: block;
   }
   .bivak_modal_mobile_show {
-    width: 93vw;
+    width: 100vw;
     height: 52vh;
-    top: 10vh;
-    left: 1rem;
     position: relative;
     background: white;
     transform: translateX(0vw);

@@ -34,3 +34,10 @@
   font-size: 0.7rem;
   font-style: normal;
 }
+.comment-container{
+  max-height: 40vh;
+ margin-bottom:2rem;
+}
+.comment-text{
+  overflow-y: scroll;
+}
