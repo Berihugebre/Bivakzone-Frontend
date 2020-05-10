@@ -14,7 +14,7 @@ const Comment = ({ id }) => {
 
   const commentGetter = () => {
     axios
-      .get(`https://bivakzone-backend.herokuapp.com/${id.replace('/', '%2F')}`)
+      .get(`https://bivakzone-backend.herokuapp.com/comment/${id.replace('/', '%2F')}`)
       .then(comments => setOldComments(comments))
       .catch(err => console.log(err));
   };
@@ -28,7 +28,7 @@ const Comment = ({ id }) => {
     e.target.reset();
     axios
       .post(
-        `http://localhost:8000/comment`,
+        `https://bivakzone-backend.herokuapp.com/comment`,
         { id, name, message },
         {
           headers: { 'Content-Type': 'application/json' },

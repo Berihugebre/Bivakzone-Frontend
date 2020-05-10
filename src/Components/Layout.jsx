@@ -11,6 +11,7 @@ import FavoriteLists from './Modal/FavoriteLists';
 const Layout = props => {
   const [showFilter, setShowFilter] = useState();
   return (
+    <>
     <Router>
       <Container className={'layout'} fluid={true}>
         <header className={'layout_header'}>
@@ -48,6 +49,7 @@ const Layout = props => {
         </section>
       </Container>
     </Router>
+    </>
   );
 };
 
