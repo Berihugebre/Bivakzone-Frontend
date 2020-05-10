@@ -2,12 +2,13 @@ import React from 'react';
 import moment from 'moment';
 import {Card } from 'react-bootstrap'
 import './displaycomment.css';
+import { Translate } from 'react-localize-redux';
 
 const DisplayComment = ({ oldComments }) => {
   return (
-    <Card>
-      <Card.Header as="h3">Comments</Card.Header>
-      <Card.Body>
+    <Card className="comment-container">
+      <Card.Header as="h3"><Translate id="comment.message">Comments</Translate></Card.Header>
+      <Card.Body className="comment-text">
         {oldComments.data.map(comment => {
           const d = moment(comment.date).format('MMM Do YY');
           return (
