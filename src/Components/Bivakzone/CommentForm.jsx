@@ -14,7 +14,7 @@ const Comment = ({ id }) => {
 
   const commentGetter = () => {
     axios
-      .get(`http://localhost:8000/comment/${id.replace('/', '%2F')}`)
+      .get(`https://bivakzone-backend.herokuapp.com/${id.replace('/', '%2F')}`)
       .then(comments => setOldComments(comments))
       .catch(err => console.log(err));
   };

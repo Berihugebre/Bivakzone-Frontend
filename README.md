@@ -25,3 +25,5 @@ npm run start
 ```shell
 node backend/server.js
 ```
+## Deploy status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/035bb72a-b0ed-41af-9596-96c1977ec9e4/deploy-status)](https://app.netlify.com/sites/bivak/deploys)
